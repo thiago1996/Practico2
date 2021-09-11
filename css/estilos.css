@@ -1,0 +1,157 @@
+#header {
+
+    display: flex;
+  }
+  
+  .fullscreen {
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    border: solid black 1px;
+    background-image: url('../img/fullscreen.png');
+  }
+  
+  .exitFullscreen {
+    
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    border: solid black 1px;
+    background-image: url('../img/exit_fullscreen.png');
+  }
+  
+  .copiarTarea{
+    background-image: url('../img/icono_copiar.png');
+    
+  }
+  
+  .compartirTarea{
+    background-image: url('../img/icono_compartir.png');
+    
+  }
+  
+  .eliminarTarea{
+    background-image: url('../img/icono_eliminar.png');
+    
+  }
+  
+  .btn{
+  
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border: none
+  }
+  
+  #lista {
+    
+    list-style: none;
+    margin-right: 10rem;
+    margin-left:  5rem;
+    padding: 0;
+  
+  }
+  
+  h1 {
+    
+    margin-left: 30%;
+    
+  }
+  
+  ul {
+    padding: 10px;
+    width: 80%;
+    flex-direction: row;
+    
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    background: #eee;
+    font-size: 18px;
+    padding: 12px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+  }
+  
+  ul li p {
+  
+    flex-grow: 1.5;
+  
+  }
+  .checkbox {
+  margin-left: 0px;
+  margin-top: 20px;
+  }
+  
+  
+  input:checked  + p { 
+  
+    text-decoration: line-through;
+    
+  }
+  
+  #form {
+  
+    padding: 10px 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-right: 20%;
+  }
+  
+  #agregarTarea {
+    padding: 20px;
+    background: #d9d9d9;
+    width: 20%;
+    color: #555;
+    float: center;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+    border: solid black 1px;
+    margin-left: 5px;
+    
+  }
+  
+  #nuevaTareaInput {
+    
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    flex-grow: 2;
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid black;
+  
+  }
+  
+  #agregarTarea:hover {
+    background-color: #bbb;
+  
+  }
+ 
